@@ -17,6 +17,10 @@ p{  font-size: 18px;
 .cyan-color{
     color: #0DA6F9;
 }
+.top-banner{
+  margin-top: 20px;
+}
+
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
@@ -45,4 +49,39 @@ p{  font-size: 18px;
 }
 .about-me img{
     width: 70%;
+}
+.recepies{
+    text-align: center;
+}
+.recipe-area{
+    margin: 0 2%;
+    padding-left: 10px;
+    box-shadow: 5px 10px 30px grey;
+    border-radius: 35px;
+}
+
+.recipe-area img{
+    border-radius: 15px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.recipe-area h3{
+  text-align: center;
+}
+.recipe-area p{
+    font-size: 14px;
+  }
+
+footer{
+    padding: 40px 0;
+    background: black;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 0;
+    font-size: 14px;
+    color: white;
 }
