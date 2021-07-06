@@ -7,23 +7,28 @@ h1{
     color: #575757;
 }
 h2{
-    font-size: 30px;
+    font-size: 40px;
     color: #575757;
 }
-p{  font-size: 18px;
+p{  font-size: 16px;
     margin-bottom: 50px;
     color: #575757;
 }
 .cyan-color{
     color: #0DA6F9;
 }
-.top-banner{
-  margin-top: 20px;
+.header-area{
+    background-image: url(../images/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+}
+.header-item{
+    text-align: center;
+    width: 32%;
 }
 
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .half-width{
     padding-left: 2%;
@@ -42,7 +47,6 @@ p{  font-size: 18px;
 }
 
 .about-me{
-    margin: 0 auto;
     background-image: url(../images/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-position: right;
@@ -72,8 +76,28 @@ p{  font-size: 18px;
   text-align: center;
 }
 .recipe-area p{
-    font-size: 14px;
+    font-size: 15px;
   }
+
+.subscribe{
+    padding: 1px;
+    background-image: url(../images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
+#subscriber-input{
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+#subscriber-button{
+    background-image: linear-gradient(rgb(233, 75, 47), rgb(73, 226, 73));
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+#subscribe-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
 
 footer{
     padding: 40px 0;
